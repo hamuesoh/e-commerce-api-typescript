@@ -6,6 +6,6 @@ export default class Server {
         new Routes(app);
     }
     public config(app: Application): void {
-        app.use(json()); 
+        app.use(json());    
     }
 }
